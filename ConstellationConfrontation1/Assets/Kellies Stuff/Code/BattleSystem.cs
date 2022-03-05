@@ -10,7 +10,7 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST } // enumarate
 
 public class BattleSystem : MonoBehaviour
 {
-	
+	public GameObject fightScreen;
 	public GameObject playerPrefab; //player
 	public GameObject enemyPrefab; // enemy 
 
@@ -142,5 +142,10 @@ public class BattleSystem : MonoBehaviour
 
 		StartCoroutine(PlayerHeal());
 	}
+	public void OnRunButton()
+	{
+	fightScreen.SetActive(false);
+	}
+
 
 }
