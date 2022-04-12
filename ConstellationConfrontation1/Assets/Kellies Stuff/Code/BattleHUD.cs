@@ -17,7 +17,7 @@ public class BattleHUD : MonoBehaviour
         // and easily call them in other scripts. 
     {
         nameText.text = unit.unitName;
-        levelText.text = "Lvl " + unit.unitLevel;
+        levelText.text = " " + unit.unitLevel;
         hpSlider.maxValue = unit.maxHP;
         hpSlider.value = unit.currentHP;
     }
