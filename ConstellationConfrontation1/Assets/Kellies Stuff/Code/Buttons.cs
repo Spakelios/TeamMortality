@@ -33,4 +33,15 @@ public class Buttons : MonoBehaviour
       ship.SetActive(true);
       Inventory.SetActive(false);
    }
+   
+   public void OPEnMenuBATTLE()
+   {
+Inventory.SetActive(true);
+   }
+   
+   public void CLOSEMenuBATTLE()
+   {
+      Inventory.SetActive(false);
+   }
 }
+
