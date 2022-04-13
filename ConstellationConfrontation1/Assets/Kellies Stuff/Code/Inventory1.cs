@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class Inventory : MonoBehaviour 
+public class Inventory1 : MonoBehaviour 
 {
     public int[] items;
     public GameObject[] slots;

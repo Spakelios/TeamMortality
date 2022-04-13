@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class pickUp : MonoBehaviour {
 
-    private Inventory inventory;
+    private Inventory1 inventory;
     public Image itemButton;
 
     private void Start()
     {
-        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory1>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
