@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 6806382933923279267}
   - component: {fileID: 4916573465047150117}
   m_Layer: 5
-  m_Name: Slots (31)
+  m_Name: Slots (31) 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0.032075405, b: 0.032075405, a: 1}
+    m_NormalColor: {r: 0.023524068, g: 0.0081167575, b: 0.3584906, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}

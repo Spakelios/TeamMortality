@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1dcd8226a04baa48b5bcbe3fe7312a0, type: 3}
   m_Name: uwu
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1656185782124031932, guid: 408ce8fefd276bd4784b92bcdc52f58e, type: 3}
+  prefab: {fileID: 4825776896275048992, guid: 7c55fab28b42e8044b32aa5d4cb3579b, type: 3}
   type: 0
   description: 'woah
 
