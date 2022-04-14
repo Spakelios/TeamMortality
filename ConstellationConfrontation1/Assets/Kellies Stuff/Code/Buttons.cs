@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
@@ -42,6 +43,11 @@ Inventory.SetActive(true);
    public void CLOSEMenuBATTLE()
    {
       Inventory.SetActive(false);
+   }
+
+   public void Ship()
+   {
+      SceneManager.LoadScene("UI");
    }
 }
 
