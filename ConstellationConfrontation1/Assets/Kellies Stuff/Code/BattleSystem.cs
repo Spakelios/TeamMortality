@@ -25,6 +25,8 @@ public class BattleSystem : MonoBehaviour
 	public BattleHUD playerHUD;
 	public BattleHUD enemyHUD;
 
+	public TextMeshProUGUI coin;
+
 	public BattleState state; // can change state in unity
 	
     void Start()
@@ -102,10 +104,15 @@ public class BattleSystem : MonoBehaviour
 		if(state == BattleState.WON) 
 		{
 			dialogueText.text = "You won the battle!"; // trigger victory text and reload scene
-			fightScreen.SetActive(false);
+			fightScreen.SetActive(true);
+			currencyContainer.Money += 100;
+			coin.text = "Coins Earned: " + 100;
+
+
 		} else if (state == BattleState.LOST)
 		{
-			dialogueText.text = "You were defeated."; // trigger end dialogue 
+			dialogueText.text = "You were defeated.";
+			SceneManager.LoadScene("UI");  // trigger end dialogue 
 		}
 	}
 

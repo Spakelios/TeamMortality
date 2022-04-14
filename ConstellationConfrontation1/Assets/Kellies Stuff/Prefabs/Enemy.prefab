@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8094305522919131736}
   - component: {fileID: 4234794438924607870}
   - component: {fileID: 2420767544044553248}
-  - component: {fileID: 20253397135830838}
+  - component: {fileID: 7238036772766342448}
   m_Layer: 5
   m_Name: Enemy
   m_TagString: Untagged
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &20253397135830838
+--- !u!114 &7238036772766342448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 928445b4e062d7e4cad0f521268ff1af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Enemy
+  unitName: Deez Nuts
   unitLevel: 10
   damage: 10
   maxHP: 100

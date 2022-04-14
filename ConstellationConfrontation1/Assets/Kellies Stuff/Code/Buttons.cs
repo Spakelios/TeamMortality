@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms;
 
 public class Buttons : MonoBehaviour
 {
@@ -38,16 +40,25 @@ public class Buttons : MonoBehaviour
    public void OPEnMenuBATTLE()
    {
 Inventory.SetActive(true);
+Time.timeScale = 0f;
    }
    
    public void CLOSEMenuBATTLE()
    {
       Inventory.SetActive(false);
+      Time.timeScale = 1f;
    }
 
    public void Ship()
    {
       SceneManager.LoadScene("UI");
+   }
+
+   public void end()
+   {
+      level.SetActive(false);
+      ship.SetActive(false);
+      Inventory.SetActive(true);
    }
 }
 
