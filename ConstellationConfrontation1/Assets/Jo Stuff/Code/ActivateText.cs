@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ActivateText : MonoBehaviour
 {
     public TextAsset theText;
+
+    public GameObject interactKey;
 
     public int startLine;
     public int endLine;
@@ -19,14 +23,16 @@ public class ActivateText : MonoBehaviour
 
     
 
-    void Start()
+    private void Start()
     {
         theTextBox = FindObjectOfType<TextboxManager>();
+        interactKey.SetActive(false);
 
-        
+
+
     }
 
-    void Update()
+    private void Update()
     {
         if (waitForPress && Input.GetKeyDown(KeyCode.Return))
         {
@@ -51,6 +57,8 @@ public class ActivateText : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            interactKey.SetActive(true);
+            
             if (Input.GetKey(KeyCode.F))
             {
 
@@ -60,7 +68,7 @@ public class ActivateText : MonoBehaviour
                     waitForPress = true;
                     return;
                 }
-
+                
                 theTextBox.ReloadScript(theText);
                 theTextBox.currentLine = startLine;
                 theTextBox.endAtLine = endLine;
@@ -74,6 +82,7 @@ public class ActivateText : MonoBehaviour
         if (other.tag == "Player")
         {
             waitForPress = false;
+            interactKey.SetActive(false);
         }
     }
 }

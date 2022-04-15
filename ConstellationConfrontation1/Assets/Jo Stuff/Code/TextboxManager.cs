@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TextboxManager : MonoBehaviour
 {
     public GameObject textBox;
-    public Text theText;
+    public TextMeshProUGUI theText;
     public TextAsset textFile;
     public string[] textLines;
 
