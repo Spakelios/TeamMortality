@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoardShip : MonoBehaviour
+public class ColliderCheck : MonoBehaviour
 {
     public GameObject shipBoarding;
     public bool isTouching;
@@ -14,13 +14,25 @@ public class BoardShip : MonoBehaviour
         isTouching = false;
     }
 
+    private void FixedUpdate()
+    {
+        isTouching = false;
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Ship")
         {
-            isTouching = true;
             shipBoarding.SetActive(true);
             Time.timeScale = 0f;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Interact")
+        {
+            isTouching = true;
         }
     }
 }
