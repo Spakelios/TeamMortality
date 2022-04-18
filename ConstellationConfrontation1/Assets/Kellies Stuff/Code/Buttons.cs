@@ -15,12 +15,14 @@ public class Buttons : MonoBehaviour
    {
       level.SetActive(true);
       ship.SetActive(false);
+      Inventory.SetActive(false);
    }
 
    public void closeLevel()
    {
       level.SetActive(false);
       ship.SetActive(true);
+      Inventory.SetActive(true);
    }
    
    public void Menu()
