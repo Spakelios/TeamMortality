@@ -26,8 +26,10 @@
       <Path>Aoifes stuff</Path>
       <Path>Jos Stuff</Path>
       <Path>Kellies Stuff</Path>
+      <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Marks Stuff</Path>
+      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
