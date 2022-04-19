@@ -11,6 +11,7 @@ public class Buttons : MonoBehaviour
    public GameObject ship;
    public GameObject Inventory;
    public GameObject text;
+   public GameObject player;
    
    public void OpenLevelselect()
    {
@@ -24,6 +25,7 @@ public class Buttons : MonoBehaviour
       ship.SetActive(false);
       Inventory.SetActive(false);
       text.SetActive(false);
+      player.SetActive(false);
    }
 
    public void closeLevel()
@@ -31,6 +33,14 @@ public class Buttons : MonoBehaviour
       level.SetActive(false);
       ship.SetActive(true);
       Inventory.SetActive(true);
+   }
+   
+   public void closeLevel2()
+   {
+      level.SetActive(false);
+      ship.SetActive(true);
+      Inventory.SetActive(true);
+      player.SetActive(true);
    }
    
    public void Menu()
