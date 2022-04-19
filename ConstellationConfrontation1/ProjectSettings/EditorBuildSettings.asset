@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Kellies Stuff/Scenes/UI.unity
     guid: f05e8eb63281f58489cfb53281f747d2
+  - enabled: 1
+    path: Assets/Jo Stuff/Scenes/Ice Planet.unity
+    guid: 7ca6d23a8cfb37e4b84032f5112e5b2d
   m_configObjects: {}
