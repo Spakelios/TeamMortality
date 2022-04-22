@@ -52,7 +52,7 @@ public class TextboxManager : MonoBehaviour
         
         theText.text = textLines[currentLine];
 
-        if (Input.GetKeyDown(KeyCode.Space) && currentLine < 4)
+        if (Input.GetKeyDown(KeyCode.Space) && currentLine < 6)
         {
             currentLine += 1;
         }
