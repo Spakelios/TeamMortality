@@ -6,4 +6,6 @@ using UnityEngine;
 public class currencyContainer : ScriptableObject
 {
     public static int Money = 0;
+    public static int Level = 20;
+    public static int reputation = 50;
 }

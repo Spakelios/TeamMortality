@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &197687260219833630
+--- !u!1001 &6921830364622666811
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -73,11 +73,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1966908206438967385, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -3.8183007
       objectReference: {fileID: 0}
     - target: {fileID: 1966908206438967385, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 2.7754166
       objectReference: {fileID: 0}
     - target: {fileID: 1966908206438967385, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -94,22 +94,22 @@ PrefabInstance:
     - target: {fileID: 3464293266971456170, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7ba33695f9a94684aa31fa5b59c7b569, type: 3}
-    - target: {fileID: 4631610272556455742, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
-      propertyPath: m_Name
-      value: Button Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 6099546648336826673, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
+      objectReference: {fileID: 21300000, guid: c7b709325ec0a6e488c53b3be165da60, type: 3}
+    - target: {fileID: 3464293266971456170, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6099546648336826673, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
+    - target: {fileID: 3464293266971456170, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_Color.g
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6099546648336826673, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
+    - target: {fileID: 3464293266971456170, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631610272556455742, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
+      propertyPath: m_Name
+      value: Button (1) Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
