@@ -2423,6 +2423,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181704884}
   m_CullTransparentMesh: 1
+--- !u!95 &1189982614 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2025180282478666546, guid: 9d856040f129493479d03beaf3440418, type: 3}
+  m_PrefabInstance: {fileID: 2025180282920853844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1224096669
 GameObject:
   m_ObjectHideFlags: 0
@@ -2557,6 +2562,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224096669}
   m_CullTransparentMesh: 1
+--- !u!1 &1321652795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2025180283562326163, guid: 9d856040f129493479d03beaf3440418, type: 3}
+  m_PrefabInstance: {fileID: 2025180282920853844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1321652797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321652795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1908c1f538cef44d9f7850323b71ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 1189982614}
 --- !u!1 &1323587132
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,7 +4381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1965428560
 Transform:
   m_ObjectHideFlags: 0
@@ -5251,7 +5274,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2025180283420943628, guid: 9d856040f129493479d03beaf3440418, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326170, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321652797}
+    - target: {fileID: 2025180283562326170, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RockP
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326170, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlanetButtons, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d856040f129493479d03beaf3440418, type: 3}
