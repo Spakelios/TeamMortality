@@ -12,7 +12,6 @@ public class Buttons : MonoBehaviour
    public GameObject Inventory;
    public GameObject text;
    public GameObject player;
-   public ColliderCheck boardingPopup;
    
    public void OpenLevelselect()
    {
@@ -82,11 +81,10 @@ Time.timeScale = 0f;
       Inventory.SetActive(true);
    }
 
-   public void GetOffShip()
+   public void quit()
    {
-      Time.timeScale = 1f;
-      boardingPopup.shipBoarding.SetActive(false);
-      
+      Application.Quit();
+      Debug.Log("quit");
    }
 }
 
