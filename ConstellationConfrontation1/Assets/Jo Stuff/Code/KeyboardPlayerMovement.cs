@@ -10,6 +10,12 @@ public class KeyboardPlayerMovement : MonoBehaviour
     public float movementSpeed;
     public bool canMove;
 
+    private void Start()
+    {
+        canMove = true;
+        Time.timeScale = 1f;
+    }
+
     private void Update()
     {
         if (!canMove)
