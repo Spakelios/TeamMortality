@@ -5,11 +5,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using UnityEngine.WSA;
+using Button = UnityEngine.UI.Button;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST } // enumarates states to switch between turns
 
 public class BattleSystem : MonoBehaviour
 {
+	public Button fight;
+	
 	public GameObject fightScreen;
 	public GameObject playerPrefab; //player
 	public GameObject enemyPrefab; // enemy 
@@ -56,6 +59,7 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator PlayerAttack()
 	{
+		
 		bool isDead = enemyUnit.TakeDamage(playerUnit.damage); 
 
 		enemyHUD.SetHP(enemyUnit.currentHP); //
@@ -76,7 +80,7 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator EnemyTurn()
 	{
-
+		fight.interactable = false;
 		dialogueText.text = enemyUnit.unitName + " attacks!"; // enemy attack dialogue trigger
 
 		yield return new WaitForSeconds(1f); // wait one second 
@@ -105,8 +109,9 @@ public class BattleSystem : MonoBehaviour
 		{
 			dialogueText.text = "You won the battle!"; // trigger victory text and reload scene
 			fightScreen.SetActive(true);
-			currencyContainer.Money += 100;
-			coin.text = "Coins Earned: " + 100;
+			currencyContainer.Money += 100 ;
+			currencyContainer.Level += 2;
+			coin.text = "Coins: " + currencyContainer.Money;
 
 
 		} else if (state == BattleState.LOST)
@@ -118,6 +123,7 @@ public class BattleSystem : MonoBehaviour
 
 	void PlayerTurn()
 	{
+		fight.interactable = true;
 		dialogueText.text = "What will you do? ";
 	}
 
