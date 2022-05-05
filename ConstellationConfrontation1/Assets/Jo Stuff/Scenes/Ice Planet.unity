@@ -204,7 +204,7 @@ Transform:
   m_LocalScale: {x: 0.47391, y: 0.47391, z: 0.47391}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &49905354
 BoxCollider2D:
@@ -489,7 +489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &194983335
 GameObject:
@@ -654,7 +654,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &270001217
 GameObject:
@@ -799,12 +799,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: endLine
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theText
       value: 
-      objectReference: {fileID: 4900000, guid: ca12b31a78de46a4695276b1f8f040ab, type: 3}
+      objectReference: {fileID: 4900000, guid: 4ad28ebc178d2ab4e99ae00ac44c20ca, type: 3}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theTextBox
       value: 
@@ -815,11 +815,11 @@ PrefabInstance:
       objectReference: {fileID: 801049757}
     - target: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Name
-      value: NPC (1)
+      value: NPC 2
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
@@ -986,11 +986,11 @@ PrefabInstance:
       objectReference: {fileID: 1807455528}
     - target: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Name
-      value: NPC (4)
+      value: Mission NPC
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1430,6 +1430,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658736292}
   m_CullTransparentMesh: 1
+--- !u!114 &705564890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3673560828615447949, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+  m_PrefabInstance: {fileID: 3673560829177155335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052b1cf398ac9f244b4211855157447e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &714864125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,7 +1630,7 @@ Transform:
   m_LocalScale: {x: 0.47391, y: 0.47391, z: 0.47391}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741778240
 GameObject:
@@ -1854,6 +1865,7 @@ MonoBehaviour:
   Inventory: {fileID: 0}
   text: {fileID: 0}
   player: {fileID: 0}
+  boardingPopup: {fileID: 705564890}
 --- !u!1 &793629109
 GameObject:
   m_ObjectHideFlags: 0
@@ -2151,7 +2163,7 @@ Transform:
   m_LocalScale: {x: 0.47391, y: 0.47391, z: 0.47391}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &813539689
 BoxCollider2D:
@@ -2223,7 +2235,7 @@ Transform:
   - {fileID: 1470994111}
   - {fileID: 410900500}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928261112
 GameObject:
@@ -8905,7 +8917,7 @@ Transform:
   m_Children:
   - {fileID: 1003984096}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1086907826
 GameObject:
@@ -8971,7 +8983,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1171354201
 GameObject:
@@ -9214,7 +9226,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1223959874
 BoxCollider2D:
@@ -9323,7 +9335,7 @@ Transform:
   m_LocalScale: {x: 0.47391, y: 0.47391, z: 0.47391}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1241781525
 BoxCollider2D:
@@ -9437,7 +9449,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1262887295}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: BoardShip
+        m_MethodName: Ship
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9502,6 +9514,7 @@ MonoBehaviour:
   Inventory: {fileID: 0}
   text: {fileID: 0}
   player: {fileID: 0}
+  boardingPopup: {fileID: 0}
 --- !u!1 &1273854784
 GameObject:
   m_ObjectHideFlags: 0
@@ -10109,7 +10122,7 @@ RectTransform:
   - {fileID: 658736293}
   - {fileID: 1807455529}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10207,12 +10220,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: endLine
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theText
       value: 
-      objectReference: {fileID: 4900000, guid: 11e8632e0107de94b87b494d87e23a98, type: 3}
+      objectReference: {fileID: 4900000, guid: 7d692fffe21d6a143bd33f9444092921, type: 3}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theTextBox
       value: 
@@ -10223,11 +10236,11 @@ PrefabInstance:
       objectReference: {fileID: 658736292}
     - target: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Name
-      value: NPC (3)
+      value: NPC 4
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10287,6 +10300,133 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+--- !u!1 &1675240761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675240763}
+  - component: {fileID: 1675240762}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1675240762
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675240761}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7ddf0836a676f4546b2a611187affe23, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1675240763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675240761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1807455528
 GameObject:
   m_ObjectHideFlags: 0
@@ -10718,7 +10858,7 @@ Transform:
   m_LocalScale: {x: 0.47391, y: 0.47391, z: 0.47391}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2059519126
 BoxCollider2D:
@@ -10760,7 +10900,7 @@ PrefabInstance:
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theText
       value: 
-      objectReference: {fileID: 4900000, guid: f0f47f602a77b844e8c75e902bf8f48c, type: 3}
+      objectReference: {fileID: 4900000, guid: ceedabe7430e8c8489979c4beb591f8d, type: 3}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theTextBox
       value: 
@@ -10771,11 +10911,11 @@ PrefabInstance:
       objectReference: {fileID: 1822003621}
     - target: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Name
-      value: NPC (2)
+      value: NPC 3
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10885,7 +11025,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3673560829177155335
 PrefabInstance:
@@ -10896,7 +11036,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3673560828615447936, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3673560828615447936, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10965,12 +11105,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: endLine
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theText
       value: 
-      objectReference: {fileID: 4900000, guid: 942c8ed59fb213c479a6473a828b388a, type: 3}
+      objectReference: {fileID: 4900000, guid: 3d0f89df2a4686749b39bccbbdc8697d, type: 3}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theTextBox
       value: 
@@ -10981,11 +11121,11 @@ PrefabInstance:
       objectReference: {fileID: 928261112}
     - target: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: NPC 1
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
