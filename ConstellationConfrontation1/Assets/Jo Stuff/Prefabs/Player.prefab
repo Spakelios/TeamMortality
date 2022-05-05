@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRB: {fileID: 3673560828615447950}
   movementSpeed: 5
+  canMove: 0
 --- !u!114 &3673560828615447949
 MonoBehaviour:
   m_ObjectHideFlags: 0
