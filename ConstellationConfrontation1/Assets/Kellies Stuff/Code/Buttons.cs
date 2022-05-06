@@ -12,13 +12,18 @@ public class Buttons : MonoBehaviour
    public GameObject Inventory;
    public GameObject text;
    public GameObject player;
-   
+   public MissionDialogue missionDialogue;
+   public ColliderCheck boardingMessage;
+
+
+
    public void OpenLevelselect()
    {
       level.SetActive(true);
       ship.SetActive(false);
       Inventory.SetActive(false);
    }
+
    public void OpenLevelselect2()
    {
       level.SetActive(true);
@@ -34,7 +39,7 @@ public class Buttons : MonoBehaviour
       ship.SetActive(true);
       Inventory.SetActive(true);
    }
-   
+
    public void closeLevel2()
    {
       level.SetActive(false);
@@ -42,27 +47,27 @@ public class Buttons : MonoBehaviour
       Inventory.SetActive(true);
       player.SetActive(true);
    }
-   
+
    public void Menu()
    {
       level.SetActive(false);
       ship.SetActive(false);
       Inventory.SetActive(true);
    }
-   
+
    public void CloseMenu()
    {
       level.SetActive(false);
       ship.SetActive(true);
       Inventory.SetActive(false);
    }
-   
+
    public void OPEnMenuBATTLE()
    {
-Inventory.SetActive(true);
-Time.timeScale = 0f;
+      Inventory.SetActive(true);
+      Time.timeScale = 0f;
    }
-   
+
    public void CLOSEMenuBATTLE()
    {
       Inventory.SetActive(false);
@@ -86,5 +91,32 @@ Time.timeScale = 0f;
       Application.Quit();
       Debug.Log("quit");
    }
+
+   public void acceptQuest()
+   {
+      missionDialogue.QuestAccepted();
+   }
+
+   public void denyQuest()
+   {
+      missionDialogue.QuestDenied();
+   }
+
+   public void politeRejection()
+   {
+      missionDialogue.KindRejection();
+   }
+
+   public void rudeRejection()
+   {
+      missionDialogue.MeanRejection();
+   }
+
+   public void GetOffShip()
+   {
+      Time.timeScale = 1f;
+      boardingMessage.shipBoarding.SetActive(false);
+   }
+
 }
 
