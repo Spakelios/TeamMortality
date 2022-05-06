@@ -724,6 +724,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4900000, guid: 02ed9b9737f6cb04ca39465c9c1800f6, type: 3}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theTextBox
       value: 
       objectReference: {fileID: 2107147057}
@@ -807,8 +811,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+--- !u!1 &273709526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2346263184983094537, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 273709525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &273709527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273709526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0887f40453190b348a953db197dc8a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: 02ed9b9737f6cb04ca39465c9c1800f6, type: 3}
+  interactKey: {fileID: 801049757}
+  startLine: 0
+  endLine: 3
+  theTextBox: {fileID: 2107147057}
+  requireButtonPress: 0
+  destroyWhenActivated: 0
 --- !u!1 &285659465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,8 +1101,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+--- !u!1 &331010393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2346263184983094537, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 331010392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &331010394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331010393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0887f40453190b348a953db197dc8a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: da26036e714b1f0498038773de7cebab, type: 3}
+  interactKey: {fileID: 1807455528}
+  startLine: 0
+  endLine: 1
+  theTextBox: {fileID: 2107147057}
+  requireButtonPress: 0
+  destroyWhenActivated: 0
 --- !u!1 &456185874
 GameObject:
   m_ObjectHideFlags: 0
@@ -10481,8 +10535,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+--- !u!1 &1623619297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2346263184983094537, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 1623619296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1623619298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623619297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0887f40453190b348a953db197dc8a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: 077a1db04e5c74043bfc3684c9408c63, type: 3}
+  interactKey: {fileID: 658736292}
+  startLine: 0
+  endLine: 3
+  theTextBox: {fileID: 2107147057}
+  requireButtonPress: 0
+  destroyWhenActivated: 0
 --- !u!1 &1807455528
 GameObject:
   m_ObjectHideFlags: 0
@@ -11250,8 +11329,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+--- !u!1 &2062899913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2346263184983094537, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 2062899912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2062899914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062899913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0887f40453190b348a953db197dc8a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: e557a5f45c62edc41a10b7b72952baec, type: 3}
+  interactKey: {fileID: 1822003621}
+  startLine: 0
+  endLine: 3
+  theTextBox: {fileID: 2107147057}
+  requireButtonPress: 0
+  destroyWhenActivated: 0
 --- !u!1 &2107147056
 GameObject:
   m_ObjectHideFlags: 0
@@ -11400,6 +11504,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4900000, guid: 089a3012760d0fc42b253b2324889ba1, type: 3}
     - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: theTextBox
       value: 
       objectReference: {fileID: 2107147057}
@@ -11483,5 +11591,30 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+--- !u!1 &5240425273103715749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2346263184983094537, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 5240425273103715748}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5240425273103715750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5240425273103715749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0887f40453190b348a953db197dc8a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theText: {fileID: 4900000, guid: 089a3012760d0fc42b253b2324889ba1, type: 3}
+  interactKey: {fileID: 928261112}
+  startLine: 0
+  endLine: 3
+  theTextBox: {fileID: 2107147057}
+  requireButtonPress: 0
+  destroyWhenActivated: 0

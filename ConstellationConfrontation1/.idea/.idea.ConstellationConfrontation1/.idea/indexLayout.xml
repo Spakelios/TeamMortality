@@ -28,6 +28,7 @@
       <Path>Kellies Stuff</Path>
       <Path>Logs</Path>
       <Path>Marks Stuff</Path>
+      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
