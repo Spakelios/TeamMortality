@@ -35,6 +35,9 @@ public class MissionDialogue : MonoBehaviour
     public bool startBattle;
 
     public ActivateText activateText;
+   
+    public GameObject fightScreen;
+    
     
     
 
@@ -48,9 +51,7 @@ public class MissionDialogue : MonoBehaviour
         secondChoiceMade = false;
         startBattle = false;
         questDone.SetActive(false);
-
-
-
+        
     }
 
     private void Update()
@@ -183,4 +184,5 @@ public class MissionDialogue : MonoBehaviour
         theTextBox.endAtLine = endLine;
         theTextBox.EnableTextBox(); 
     }
+    
 }

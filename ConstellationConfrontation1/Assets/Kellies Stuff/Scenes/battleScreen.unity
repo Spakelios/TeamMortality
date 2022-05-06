@@ -5408,6 +5408,8 @@ MonoBehaviour:
   Inventory: {fileID: 0}
   text: {fileID: 0}
   player: {fileID: 0}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!114 &1291449733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5514,12 +5516,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1.1275008
+      objectReference: {fileID: 0}
+    - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3264714
+      objectReference: {fileID: 0}
+    - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3264714
+      objectReference: {fileID: 0}
+    - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4599
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1138
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7941,6 +7955,8 @@ MonoBehaviour:
   Inventory: {fileID: 1773635436}
   text: {fileID: 0}
   player: {fileID: 0}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!1001 &1547938109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8739,7 +8755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5853441427050028969, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5853441427050028970, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_UiScaleMode
@@ -8751,19 +8767,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5853441427332952286, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5853441427332952286, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5853441427383876651, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5853441427383876651, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5853441428359639982, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_SizeDelta.x

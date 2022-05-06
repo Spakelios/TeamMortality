@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
-using UnityEngine.WSA;
 using Button = UnityEngine.UI.Button;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST } // enumarates states to switch between turns
@@ -80,7 +79,6 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator EnemyTurn()
 	{
-		fight.interactable = false;
 		dialogueText.text = enemyUnit.unitName + " attacks!"; // enemy attack dialogue trigger
 
 		yield return new WaitForSeconds(1f); // wait one second 

@@ -19,6 +19,8 @@ public class MissionManager : MonoBehaviour
     public bool stopPlayerMovement;
     public GameObject firstChoice;
     public GameObject secondChoice;
+
+    public GameObject fightScreen;
     
     public MissionDialogue missionDialogue;
     private void Start()
@@ -116,8 +118,10 @@ public class MissionManager : MonoBehaviour
 
     private void ChoiceButtons2()
     {
-        secondChoice.SetActive(true);
-        isActive = true;
-        player.canMove = false;
+        // secondChoice.SetActive(true);
+        // isActive = true;
+       fightScreen.SetActive(true);
+
+        // player.canMove = false;
     }
 }

@@ -1789,6 +1789,8 @@ MonoBehaviour:
   Inventory: {fileID: 1804692174}
   text: {fileID: 1036520264}
   player: {fileID: 1986175180}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!114 &709165619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2348,6 +2350,8 @@ MonoBehaviour:
   Inventory: {fileID: 1965428559}
   text: {fileID: 0}
   player: {fileID: 0}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!1 &1181704884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,6 +2584,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 1189982614}
+--- !u!114 &1321652800 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2025180283562326168, guid: 9d856040f129493479d03beaf3440418, type: 3}
+  m_PrefabInstance: {fileID: 2025180282920853844}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321652795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb8f2137f2482548b87ef6686d4dbc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1323587132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2765,6 +2780,8 @@ MonoBehaviour:
   Inventory: {fileID: 1804692174}
   text: {fileID: 0}
   player: {fileID: 0}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!1 &1340696464
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,6 +3345,8 @@ MonoBehaviour:
   Inventory: {fileID: 1804692174}
   text: {fileID: 0}
   player: {fileID: 0}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!114 &1648889289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4024,6 +4043,8 @@ MonoBehaviour:
   Inventory: {fileID: 1804692174}
   text: {fileID: 0}
   player: {fileID: 0}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!114 &1835095471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5072,12 +5093,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.79512906
+      objectReference: {fileID: 0}
+    - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9395329
+      objectReference: {fileID: 0}
+    - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4599
+      value: -2.18
       objectReference: {fileID: 0}
     - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1138
+      value: 0.37
       objectReference: {fileID: 0}
     - target: {fileID: 724090563019640439, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5280,19 +5309,52 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326169, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2025180283562326170, guid: 9d856040f129493479d03beaf3440418, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1321652797}
+      objectReference: {fileID: 1321652800}
     - target: {fileID: 2025180283562326170, guid: 9d856040f129493479d03beaf3440418, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RockP
+      value: OnMouseExit
       objectReference: {fileID: 0}
     - target: {fileID: 2025180283562326170, guid: 9d856040f129493479d03beaf3440418, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: onMouseOver, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326173, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326173, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326173, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321652797}
+    - target: {fileID: 2025180283562326173, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326173, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RockP
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025180283562326173, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlanetButtons, Assembly-CSharp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2025180283562326173, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2025180283562326169, guid: 9d856040f129493479d03beaf3440418, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9d856040f129493479d03beaf3440418, type: 3}
 --- !u!1001 &7413932369357546479
 PrefabInstance:

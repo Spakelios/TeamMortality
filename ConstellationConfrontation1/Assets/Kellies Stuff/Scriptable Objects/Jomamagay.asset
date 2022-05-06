@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecff6db00b0cefa4684e7a22b483a7aa, type: 3}
   m_Name: Jomamagay
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4631610272556455742, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
-  type: 2
+  prefab: {fileID: 4825776896275048992, guid: 7c55fab28b42e8044b32aa5d4cb3579b, type: 3}
+  type: 1
   description: your mom is gay
