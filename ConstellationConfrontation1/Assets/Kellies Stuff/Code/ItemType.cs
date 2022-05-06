@@ -5,16 +5,7 @@ using UnityEngine;
 public enum ItemType
 {
     Food,
-    Equipment,
     Default
-}
-
-public enum Attributes
-{
-    Agility,
-    Intellect,
-    Stamina,
-    Strength
 }
 
 public abstract class ItemObject : ScriptableObject
