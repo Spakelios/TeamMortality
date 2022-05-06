@@ -5096,6 +5096,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 724090563030073712, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
+      propertyPath: movementSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 724090563030073725, guid: 44c76a6bcf8d5ce439b5cb2fbe67dfd2, type: 3}
       propertyPath: m_SpriteTilingProperty.border.w
       value: 0

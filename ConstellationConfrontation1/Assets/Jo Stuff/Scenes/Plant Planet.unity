@@ -753,6 +753,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5974793
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.r
+      value: 0.555963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -910,6 +922,18 @@ PrefabInstance:
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5974793
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.r
+      value: 0.555963
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
@@ -1612,7 +1636,8 @@ MonoBehaviour:
   Inventory: {fileID: 0}
   text: {fileID: 0}
   player: {fileID: 0}
-  boardingPopup: {fileID: 882630475}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 3673560829177155336}
 --- !u!1 &801049757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,17 +1772,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801049757}
   m_CullTransparentMesh: 1
---- !u!114 &882630475 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3673560828615447949, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
-  m_PrefabInstance: {fileID: 3673560829177155335}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 052b1cf398ac9f244b4211855157447e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &928261112
 GameObject:
   m_ObjectHideFlags: 0
@@ -9836,7 +9850,8 @@ MonoBehaviour:
   Inventory: {fileID: 0}
   text: {fileID: 0}
   player: {fileID: 0}
-  boardingPopup: {fileID: 0}
+  missionDialogue: {fileID: 0}
+  boardingMessage: {fileID: 0}
 --- !u!1 &1276306485
 GameObject:
   m_ObjectHideFlags: 0
@@ -10481,6 +10496,18 @@ PrefabInstance:
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5974793
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.r
+      value: 0.555963
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
@@ -11283,6 +11310,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5974793
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.r
+      value: 0.555963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -11409,6 +11448,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+--- !u!114 &3673560829177155336 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3673560828615447949, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+  m_PrefabInstance: {fileID: 3673560829177155335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052b1cf398ac9f244b4211855157447e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5240425273103715748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11475,6 +11525,18 @@ PrefabInstance:
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5974793
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Color.r
+      value: 0.555963
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
