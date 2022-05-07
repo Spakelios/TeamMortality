@@ -35,14 +35,7 @@ public class MissionDialogue : MonoBehaviour
     public bool startBattle;
 
     public ActivateText activateText;
-   
-    public GameObject fightScreen;
     
-    
-    
-
-    
-
     private void Start()
     {
         theTextBox = FindObjectOfType<MissionManager>();
