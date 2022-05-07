@@ -75,6 +75,11 @@ public class MissionManager : MonoBehaviour
             {
                 ChoiceButtons2();
             }
+            
+            else if (missionDialogue && missionDialogue.secondChoiceMade && missionDialogue.startBattle)
+            {
+                Battle();
+            }
         }
     }
 
@@ -118,10 +123,15 @@ public class MissionManager : MonoBehaviour
 
     private void ChoiceButtons2()
     {
-        // secondChoice.SetActive(true);
-        // isActive = true;
-       fightScreen.SetActive(true);
+        isActive = true;
+       secondChoice.SetActive(true);
 
-        // player.canMove = false;
+        player.canMove = false;
+    }
+
+    private void Battle()
+    {
+        secondChoice.SetActive(false);
+        fightScreen.SetActive(true); 
     }
 }

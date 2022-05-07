@@ -109,6 +109,7 @@ public class BattleSystem : MonoBehaviour
 			fightScreen.SetActive(true);
 			currencyContainer.Money += 100 ;
 			currencyContainer.Level += 2;
+			currencyContainer.reputation -= 10;
 			coin.text = "Coins: " + currencyContainer.Money;
 
 
