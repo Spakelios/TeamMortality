@@ -181,8 +181,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theText: {fileID: 0}
+  questLine: {fileID: 0}
+  interactKey: {fileID: 0}
   startLine: 0
   endLine: 3
   theTextBox: {fileID: 0}
   requireButtonPress: 0
   destroyWhenActivated: 0
+  missionDialogue: {fileID: 0}
+  questAdvanced: 0
