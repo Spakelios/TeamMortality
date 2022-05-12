@@ -4356,6 +4356,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 270001218}
     - target: {fileID: 1126321158194467248, guid: cb7e6ba830928824b80b25ed1b4017e5, type: 3}
+      propertyPath: fightScreen
+      value: 
+      objectReference: {fileID: 2106033487}
+    - target: {fileID: 1126321158194467248, guid: cb7e6ba830928824b80b25ed1b4017e5, type: 3}
       propertyPath: firstChoice
       value: 
       objectReference: {fileID: 251416293}
@@ -16870,6 +16874,11 @@ PrefabInstance:
 --- !u!1 &2106033486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5853441427240393410, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+  m_PrefabInstance: {fileID: 2106033485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2106033487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5853441427050028969, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
   m_PrefabInstance: {fileID: 2106033485}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2107147056
