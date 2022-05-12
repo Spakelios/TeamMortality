@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jo Stuff/Scenes/Fire Planet.unity
     guid: 0b623351d2832e645be6241ab7b15e05
+  - enabled: 1
+    path: Assets/Jo Stuff/Scenes/Plant Planet.unity
+    guid: 666fcf25e6a4e33489c0b80ca325eb3c
+  - enabled: 1
+    path: Assets/Jo Stuff/Scenes/Rock & Metal Planet.unity
+    guid: 70e898820d600a943a1b3de422a10484
   m_configObjects: {}

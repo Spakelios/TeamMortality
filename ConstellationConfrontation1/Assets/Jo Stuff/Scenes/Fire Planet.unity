@@ -11857,7 +11857,7 @@ PrefabInstance:
     - target: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
       propertyPath: fightScreen
       value: 
-      objectReference: {fileID: 1445394042}
+      objectReference: {fileID: 2106033486}
     - target: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
       propertyPath: dialogueText
       value: 
@@ -14063,11 +14063,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393637861}
   m_CullTransparentMesh: 1
---- !u!1 &1445394042 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5853441427050028969, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
-  m_PrefabInstance: {fileID: 2106033485}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1456497998
 GameObject:
   m_ObjectHideFlags: 0
@@ -16872,6 +16867,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+--- !u!1 &2106033486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5853441427240393410, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+  m_PrefabInstance: {fileID: 2106033485}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2107147056
 GameObject:
   m_ObjectHideFlags: 0

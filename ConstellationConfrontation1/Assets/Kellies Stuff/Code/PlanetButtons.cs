@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,11 +13,21 @@ public class PlanetButtons : MonoBehaviour
         StartCoroutine(ice());
     }
 
-    public void RockP()
+    public void FireP()
     {
-        StartCoroutine(rock());
+        StartCoroutine(Fire());
+    }
+
+    public void PlantP()
+    {
+        StartCoroutine(plant());
     }
     
+    public void MetalP()
+    {
+        StartCoroutine(metal());
+    }
+
 
     public IEnumerator ice()
     {
@@ -25,10 +36,25 @@ public class PlanetButtons : MonoBehaviour
         SceneManager.LoadScene("Ice Planet");
     }
     
-   public IEnumerator rock()
+   public IEnumerator Fire()
     {
         _animator.Play("button pressy");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Fire Planet");
     }
+   
+   public IEnumerator plant()
+   {
+       _animator.Play("button pressy");
+       yield return new WaitForSeconds(1f);
+       SceneManager.LoadScene("Plant Planet");
+   }
+   
+   public IEnumerator metal()
+   {
+       _animator.Play("button pressy");
+       yield return new WaitForSeconds(1f);
+       SceneManager.LoadScene("Rock & Metal Planet");
+   }
 }
+
