@@ -4481,6 +4481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fight: {fileID: 498279100}
+  openMenu: {fileID: 0}
   fightScreen: {fileID: 1516605027}
   playerPrefab: {fileID: 696993019292045417, guid: e45b3bf690408954790435313804d6e4, type: 3}
   enemyPrefab: {fileID: 463090701499562212, guid: c05439b7438877f4baa6bf24df41d178, type: 3}
@@ -7735,7 +7736,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493099361}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}

@@ -15,6 +15,8 @@ public class Buttons : MonoBehaviour
    public MissionDialogue missionDialogue;
    public ColliderCheck boardingMessage;
 
+   public Units units;
+
 
 
    public void OpenLevelselect()
@@ -116,6 +118,13 @@ public class Buttons : MonoBehaviour
    {
       Time.timeScale = 1f;
       boardingMessage.shipBoarding.SetActive(false);
+   }
+
+   public InventoryObject.InventorySlot item;
+   public void healItem()
+   {
+      units.Heal(10);
+      item.removeItem(1);
    }
 
 }

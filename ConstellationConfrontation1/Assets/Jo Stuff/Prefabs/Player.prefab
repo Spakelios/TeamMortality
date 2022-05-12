@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3673560828615447950}
   - component: {fileID: 3673560828615447938}
   - component: {fileID: 3673560828615447949}
+  - component: {fileID: 279865289399257003}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -162,3 +163,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipBoarding: {fileID: 0}
   isTouching: 0
+--- !u!114 &279865289399257003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673560828615447939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43d08bdeda8c134f8f1a1ad6abda82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 11400000, guid: f7d8e71eabbbeaa408ceb55114d5bc63, type: 2}

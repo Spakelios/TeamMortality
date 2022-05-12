@@ -42,5 +42,11 @@ public class InventoryObject : ScriptableObject
         {
             amount += value;
         }
+
+        public void removeItem(int val)
+        {
+            amount -= val;
+        }
     }
+    
 }

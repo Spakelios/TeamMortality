@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms;
 using UnityEngine.UIElements;
 using Button = UnityEngine.UI.Button;
 
@@ -11,7 +13,8 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST } // enumarate
 public class BattleSystem : MonoBehaviour
 {
 	public Button fight;
-	
+
+	public GameObject openMenu;
 	public GameObject fightScreen;
 	public GameObject playerPrefab; //player
 	public GameObject enemyPrefab; // enemy 
@@ -128,15 +131,15 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator PlayerHeal()
 	{
-		playerUnit.Heal(5); // increase health by 5 
+		openMenu.SetActive(true);
 
-		playerHUD.SetHP(playerUnit.currentHP); // show in hud
-		dialogueText.text = "You Healed!";
+		yield return new WaitForSeconds(1f); // wait 2 seconds 
 
-		yield return new WaitForSeconds(2f); // wait 2 seconds 
-
-		state = BattleState.ENEMYTURN; // trigger enemy turn 
-		StartCoroutine(EnemyTurn());
+		if (!openMenu.activeInHierarchy && state == BattleState.PLAYERTURN)
+		{
+			state = BattleState.ENEMYTURN; // trigger enemy turn 
+			StartCoroutine(EnemyTurn());
+		}
 	}
 
 	public void OnAttackButton()
