@@ -1726,6 +1726,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1060750259, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+--- !u!1 &331010393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 331010392}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &372155853
 GameObject:
   m_ObjectHideFlags: 0
@@ -16806,6 +16811,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 268960825}
+    - target: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
+      propertyPath: DefeatedEnemy
+      value: 
+      objectReference: {fileID: 331010393}
     - target: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
       propertyPath: enemyBattleStation
       value: 

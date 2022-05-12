@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 49905353}
   - component: {fileID: 49905352}
   - component: {fileID: 49905354}
+  - component: {fileID: 49905355}
   m_Layer: 0
   m_Name: RedPlanetHouse (3)
   m_TagString: Untagged
@@ -232,6 +233,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7, y: 5.64}
   m_EdgeRadius: 0
+--- !u!58 &49905355
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49905351}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 3.92
 --- !u!114 &84308428 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5853441428937735192, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
@@ -12006,6 +12023,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506335087}
     - target: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
+      propertyPath: DefeatedEnemy
+      value: 
+      objectReference: {fileID: 1538669538}
+    - target: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
       propertyPath: enemyBattleStation
       value: 
       objectReference: {fileID: 1316246735}
@@ -14667,6 +14688,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498465029}
   m_CullTransparentMesh: 1
+--- !u!1 &1538669538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 331010392}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1566297008
 GameObject:
   m_ObjectHideFlags: 0
@@ -15078,6 +15104,39 @@ MonoBehaviour:
   theTextBox: {fileID: 2107147057}
   requireButtonPress: 0
   destroyWhenActivated: 0
+--- !u!1 &1675717548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+  m_PrefabInstance: {fileID: 2062899912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1675717550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675717548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ecc6134d9131842bea7fbafa7ff174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1675717553
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675717548}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.54575914, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2980782
 --- !u!1 &1725636038
 GameObject:
   m_ObjectHideFlags: 0

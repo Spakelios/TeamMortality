@@ -13,6 +13,7 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST } // enumarate
 public class BattleSystem : MonoBehaviour
 {
 	public Button fight;
+	public GameObject DefeatedEnemy;
 
 	public GameObject openMenu;
 	public GameObject fightScreen;
@@ -113,6 +114,7 @@ public class BattleSystem : MonoBehaviour
 			currencyContainer.Money += 100 ;
 			currencyContainer.Level += 2;
 			currencyContainer.reputation -= 10;
+			Destroy(DefeatedEnemy);
 			coin.text = "Coins: " + currencyContainer.Money;
 
 

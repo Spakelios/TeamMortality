@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO.Pipes;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MissionDialogue : MonoBehaviour
 {
@@ -126,15 +128,16 @@ public class MissionDialogue : MonoBehaviour
         }
     }
     
+    
     public void QuestAccepted()
     {
         choiceMade = true;
         secondChoiceMade = true;
         currencyContainer.flower++;
-        
+        currencyContainer.fertiliser++;
         acceptedQuest = true;
         missionManager.firstChoice.SetActive(false);
-        
+
         theTextBox.ReloadScript(acceptText);
         theTextBox.currentLine = startLine;
         endLine = 0;

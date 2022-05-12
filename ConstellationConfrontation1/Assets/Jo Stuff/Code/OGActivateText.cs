@@ -62,8 +62,6 @@ public class OGActivateText : MonoBehaviour
             
             if (Input.GetKey(KeyCode.F))
             {
-
-
                 if (requireButtonPress)
                 {
                     waitForPress = true;
