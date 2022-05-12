@@ -3631,6 +3631,10 @@ MonoBehaviour:
   player: {fileID: 0}
   missionDialogue: {fileID: 0}
   boardingMessage: {fileID: 3673560829177155336}
+  units: {fileID: 0}
+  item:
+    item: {fileID: 0}
+    amount: 0
 --- !u!1 &793629109
 GameObject:
   m_ObjectHideFlags: 0
@@ -12238,6 +12242,10 @@ MonoBehaviour:
   player: {fileID: 0}
   missionDialogue: {fileID: 0}
   boardingMessage: {fileID: 0}
+  units: {fileID: 0}
+  item:
+    item: {fileID: 0}
+    amount: 0
 --- !u!114 &1155858346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12987,6 +12995,10 @@ MonoBehaviour:
   player: {fileID: 0}
   missionDialogue: {fileID: 0}
   boardingMessage: {fileID: 0}
+  units: {fileID: 0}
+  item:
+    item: {fileID: 0}
+    amount: 0
 --- !u!1 &1273854784
 GameObject:
   m_ObjectHideFlags: 0
@@ -15475,6 +15487,10 @@ MonoBehaviour:
   player: {fileID: 0}
   missionDialogue: {fileID: 0}
   boardingMessage: {fileID: 0}
+  units: {fileID: 0}
+  item:
+    item: {fileID: 0}
+    amount: 0
 --- !u!114 &1840965759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16681,7 +16697,8 @@ PrefabInstance:
       propertyPath: m_SleepingMode
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 279865289399257003, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
 --- !u!114 &3673560829177155336 stripped
 MonoBehaviour:

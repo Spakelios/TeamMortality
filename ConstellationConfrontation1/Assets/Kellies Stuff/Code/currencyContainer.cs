@@ -8,4 +8,6 @@ public class currencyContainer : ScriptableObject
     public static int Money = 0;
     public static int Level = 20;
     public static int reputation = 50;
+    public static int flower = 0;
+    public static int fertiliser = 0;
 }

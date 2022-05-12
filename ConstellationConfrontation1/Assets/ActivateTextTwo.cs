@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class ActivateText : MonoBehaviour
+public class ActivateTextTwo : MonoBehaviour
 {
     public TextAsset theText;
     public TextAsset questLine;

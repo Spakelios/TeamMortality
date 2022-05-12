@@ -130,6 +130,7 @@ public class MissionDialogue : MonoBehaviour
     {
         choiceMade = true;
         secondChoiceMade = true;
+        currencyContainer.flower++;
         
         acceptedQuest = true;
         missionManager.firstChoice.SetActive(false);
