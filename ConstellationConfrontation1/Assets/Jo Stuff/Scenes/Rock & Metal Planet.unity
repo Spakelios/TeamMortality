@@ -835,13 +835,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock NPC 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4670326574433428132, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6125
+      objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.93585
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.35
+      value: 6.6987
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.y
@@ -880,16 +888,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aec749c0936bc0842aaf2586ba7ff669, type: 3}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.b
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.g
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.r
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
@@ -1253,13 +1265,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mission NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 4670326574433428132, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5875
+      objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.94
+      value: 13.352
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1298,16 +1318,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1e1da11e3f9b61f40a9520752e955273, type: 3}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.b
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.g
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.r
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
@@ -12000,13 +12024,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Metal NPC 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4670326574433428132, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5875
+      objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9705
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.66
+      value: -0.2836
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12045,16 +12077,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 33030940bab8cd74695ed7b34abe9d82, type: 3}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.b
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.g
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.r
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
@@ -13046,13 +13082,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Metal NPC 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4670326574433428132, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9869
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.35
+      value: 6.7395
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13091,16 +13135,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd023978adca17048bed432612c334fd, type: 3}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.b
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.g
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.r
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
@@ -13398,13 +13446,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock NPC 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4670326574433428132, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6375
+      objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.88585
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.66
+      value: -0.3513
       objectReference: {fileID: 0}
     - target: {fileID: 7740591576329392595, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13443,16 +13499,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2be1b90ad3e97b44aadcfe45b1754df2, type: 3}
+    - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.b
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.g
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_Color.r
-      value: 0.4811321
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8008366656167131260, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       propertyPath: m_SortingOrder
