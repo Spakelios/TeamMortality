@@ -94,7 +94,7 @@ PrefabInstance:
     - target: {fileID: 3464293266971456170, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a5f29427090269b4b93f61303648f93c, type: 3}
+      objectReference: {fileID: 21300000, guid: 48ac0f50dfa074f4b94e3bb8e590a199, type: 3}
     - target: {fileID: 4631610272556455742, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_Name
       value: Button Variant
@@ -122,18 +122,18 @@ PrefabInstance:
     - target: {fileID: 7270374345850392928, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
     - target: {fileID: 7270374345850392928, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7270374345850392928, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: healItem
+      value: OnHealButton
       objectReference: {fileID: 0}
     - target: {fileID: 7270374345850392928, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Buttons, Assembly-CSharp
+      value: BattleSystem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7270374345850392928, guid: af75d4c6f9332654182dcb2796c0532c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

@@ -22,9 +22,11 @@ public class KeyboardPlayerMovement : MonoBehaviour
         {
             return;
         }
-        
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+
     }
 
     private void FixedUpdate()
@@ -33,6 +35,32 @@ public class KeyboardPlayerMovement : MonoBehaviour
         {
             return;
         }
+
         playerRB.MovePosition(playerRB.position + movement * (movementSpeed * Time.fixedDeltaTime));
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            GetComponent<Animator>().Play("player");
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            GetComponent<Animator>().Play("player4");
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            GetComponent<Animator>().Play("player3");
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            GetComponent<Animator>().Play("player2");        
+        }
+        else
+        {
+            GetComponent<Animator>().StopPlayback();
+        }
+        
     }
 }
+
