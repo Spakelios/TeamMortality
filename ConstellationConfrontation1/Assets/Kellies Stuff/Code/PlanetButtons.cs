@@ -1,4 +1,4 @@
-using System;
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
@@ -33,7 +33,6 @@ public class PlanetButtons : MonoBehaviour
     public IEnumerator ice()
     {
         _animator.Play("button pressy");
-        woosh.Play();
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Ice Planet");
     }
@@ -41,25 +40,25 @@ public class PlanetButtons : MonoBehaviour
    public IEnumerator Fire()
     {
         _animator.Play("button pressy");
-        woosh.Play();
+     
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Fire Planet");
+        // SceneManager.LoadScene("Fire Planet");
     }
    
    public IEnumerator plant()
    {
        _animator.Play("button pressy");
-       woosh.Play();
+       //
        yield return new WaitForSeconds(1f);
-       SceneManager.LoadScene("Plant Planet");
+       // SceneManager.LoadScene("Plant Planet");
    }
    
    public IEnumerator metal()
    {
        _animator.Play("button pressy");
-       woosh.Play();
+   
        yield return new WaitForSeconds(1f);
-       SceneManager.LoadScene("Rock & Metal Planet");
+       // SceneManager.LoadScene("Rock & Metal Planet");
    }
 }
 
