@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638374918742779396
+  lastModified: 638375745177334187
   FileSizes:
   - Name: Desktop
-    Value: 1368480
+    Value: 2072992
   Exists: 1
 --- !u!114 &-5123942693370014445
 MonoBehaviour:
@@ -66,7 +66,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 13328
+  Length: 12000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
   - {fileID: -6697555624944929648}
   StringsBanks:
   - {fileID: 9042223339493966554}
-  cacheTime: 638374918742804901
+  cacheTime: 638375745177384060
   cacheVersion: 131609
 --- !u!114 &5663855843106837065
 MonoBehaviour:
@@ -119,7 +119,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 98089
+  Length: 99474
 --- !u!114 &9042223339493966554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638374918742804901
+  lastModified: 638375745177384060
   FileSizes:
   - Name: Desktop
     Value: 860
