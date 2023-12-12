@@ -5,9 +5,9 @@ using UnityEngine;
 public class getmousednoob : MonoBehaviour
 {
     public AudioSource boop;
-    public void OnMouseOver()
-    {
-        boop.Play();
-    }
+    // public void OnMouseOver()
+    // {
+    //     boop.Play();
+    // }
     
 }
