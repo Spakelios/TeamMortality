@@ -8,6 +8,8 @@ TagManager:
   - Ship
   - Interact
   - Button
+  - gerry
+  - heal
   layers:
   - Default
   - TransparentFX

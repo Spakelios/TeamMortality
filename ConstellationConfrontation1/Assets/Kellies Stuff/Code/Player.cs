@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
         if (item)
         {
             inventory.AddItem(item.Item, 1);
+            new WaitForSeconds(5);
             Destroy(other.gameObject);
         }
     }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7011789025652196161
+--- !u!114 &-8417723237509922685
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Button pos
+  m_Name: event:/button pos
   m_EditorClassIdentifier: 
-  Path: event:/Button pos
+  Path: event:/button pos
   Guid:
     Data1: -1574586639
     Data2: 1311221846
@@ -26,7 +26,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1857
+  Length: 500
 --- !u!114 &-6948785021731201425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638380107707652967
+  lastModified: 638397456163735401
   FileSizes:
   - Name: Desktop
-    Value: 2767744
+    Value: 2798496
   Exists: 1
 --- !u!114 &-5123942693370014445
 MonoBehaviour:
@@ -120,8 +120,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1800
---- !u!114 &-3524735324732233602
+  Length: 1300
+--- !u!114 &-1260574925476534993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,23 +131,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Beep boops 2
+  m_Name: event:/buttons
   m_EditorClassIdentifier: 
-  Path: event:/Beep boops 2
+  Path: event:/buttons
   Guid:
-    Data1: 983362800
-    Data2: 1194196153
-    Data3: -1747615056
-    Data4: -1299538147
+    Data1: 731596977
+    Data2: 1112342268
+    Data3: -1325868416
+    Data4: -749952534
   Banks:
   - {fileID: -6697555624944929648}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 12400
+  Length: 2000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,18 +166,48 @@ MonoBehaviour:
   - {fileID: -5123942693370014445}
   EditorEvents:
   - {fileID: 5663855843106837065}
-  - {fileID: -3524735324732233602}
   - {fileID: -5080292586773399888}
-  - {fileID: -7011789025652196161}
   - {fileID: -6948785021731201425}
   - {fileID: 8433052832153969210}
+  - {fileID: -1260574925476534993}
+  - {fileID: 566407472698861525}
+  - {fileID: -8417723237509922685}
+  - {fileID: 6228231808170480588}
+  - {fileID: 8651199118524775243}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6697555624944929648}
   StringsBanks:
   - {fileID: 9042223339493966554}
-  cacheTime: 638380107707712818
+  cacheTime: 638397456163785261
   cacheVersion: 131609
+--- !u!114 &566407472698861525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/beep boops 2
+  m_EditorClassIdentifier: 
+  Path: event:/beep boops 2
+  Guid:
+    Data1: 983362800
+    Data2: 1194196153
+    Data3: -1747615056
+    Data4: -1299538147
+  Banks:
+  - {fileID: -6697555624944929648}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12400
 --- !u!114 &5663855843106837065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,6 +235,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 99474
+--- !u!114 &6228231808170480588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tap_01
+  m_EditorClassIdentifier: 
+  Path: event:/Tap_01
+  Guid:
+    Data1: 1410302906
+    Data2: 1279035301
+    Data3: -1179923014
+    Data4: 871533593
+  Banks:
+  - {fileID: -6697555624944929648}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 280
 --- !u!114 &8433052832153969210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +289,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 28303
+--- !u!114 &8651199118524775243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/wooah
+  m_EditorClassIdentifier: 
+  Path: event:/wooah
+  Guid:
+    Data1: -2055327936
+    Data2: 1306214875
+    Data3: -1488823646
+    Data4: 132601772
+  Banks:
+  - {fileID: -6697555624944929648}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1350
 --- !u!114 &9042223339493966554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,8 +331,8 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638380107707712818
+  lastModified: 638397456163785261
   FileSizes:
   - Name: Desktop
-    Value: 1070
+    Value: 1188
   Exists: 1

@@ -2414,6 +2414,42 @@ PolygonCollider2D:
       - {x: 0.58, y: -1.9799999}
       - {x: 0.76, y: -1.9799999}
   m_UseDelaunayMesh: 0
+--- !u!1 &413481970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5738746225051025452, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+  m_PrefabInstance: {fileID: 1693235086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &413481975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413481970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 1410302906
+      Data2: 1279035301
+      Data3: -1179923014
+      Data4: 871533593
+    Path: event:/Tap_01
+  Event: 
+  PlayEvent: 5
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &443429955
 GameObject:
   m_ObjectHideFlags: 0
@@ -15471,6 +15507,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5738746225051025442, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3204544
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738746225051025442, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+      propertyPath: m_Size.y
+      value: 2.1794562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738746225051025442, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00000054857554
+      objectReference: {fileID: 0}
     - target: {fileID: 5738746225051025443, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
       propertyPath: m_Color.b
       value: 0.8301887
@@ -15487,10 +15535,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Syringe
       objectReference: {fileID: 0}
+    - target: {fileID: 5738746225051025452, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+      propertyPath: m_TagString
+      value: gerry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5738746225051025452, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 413481975}
   m_SourcePrefab: {fileID: 100100000, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
 --- !u!1 &1720726777
 GameObject:
@@ -15506,7 +15561,7 @@ GameObject:
   - component: {fileID: 1720726781}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: heal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17431,6 +17486,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3673560828615447949, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+      propertyPath: isTouching
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673560828615447949, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       propertyPath: shipBoarding
       value: 
       objectReference: {fileID: 1217555257}
@@ -17440,11 +17499,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3673560828615447951, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.2
+      value: 1.3333334
       objectReference: {fileID: 0}
     - target: {fileID: 3673560828615447951, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.16
+      value: 1.0666667
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 279865289399257003, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
@@ -17457,6 +17516,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 593138143}
+    - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3673560829177155337}
+    - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3673560829177155343}
   m_SourcePrefab: {fileID: 100100000, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
 --- !u!114 &3673560829177155336 stripped
 MonoBehaviour:
@@ -17469,6 +17534,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 052b1cf398ac9f244b4211855157447e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3673560829177155337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593138137}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: gerry
+  EventReference:
+    Guid:
+      Data1: 1410302906
+      Data2: 1279035301
+      Data3: -1179923014
+      Data4: 871533593
+    Path: event:/Tap_01
+  Event: 
+  PlayEvent: 3
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &3673560829177155343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593138137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: heal
+  EventReference:
+    Guid:
+      Data1: -2055327936
+      Data2: 1306214875
+      Data3: -1488823646
+      Data4: 132601772
+    Path: event:/wooah
+  Event: 
+  PlayEvent: 5
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &3795340587416883218
 PrefabInstance:
   m_ObjectHideFlags: 0
