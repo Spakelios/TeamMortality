@@ -70,10 +70,10 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638399878452776132
+  lastModified: 638399881242064525
   FileSizes:
   - Name: Desktop
-    Value: 2981952
+    Value: 2982400
   Exists: 1
 --- !u!114 &-5123942693370014445
 MonoBehaviour:
@@ -176,6 +176,31 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-1057419848719260836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voice/Speak
+  m_EditorClassIdentifier: 
+  Name: Speak
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 2644879229
+    data2: 850356582
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +235,7 @@ MonoBehaviour:
   - {fileID: -6697555624944929648}
   StringsBanks:
   - {fileID: 9042223339493966554}
-  cacheTime: 638399878452835973
+  cacheTime: 638399881242104417
   cacheVersion: 131609
 --- !u!114 &566407472698861525
 MonoBehaviour:
@@ -395,7 +420,8 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -1057419848719260836}
   MinDistance: 1
   MaxDistance: 20
   Length: 459
@@ -469,8 +495,8 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638399878452835973
+  lastModified: 638399881242104417
   FileSizes:
   - Name: Desktop
-    Value: 1404
+    Value: 1452
   Exists: 1

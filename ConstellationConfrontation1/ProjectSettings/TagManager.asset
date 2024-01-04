@@ -10,6 +10,7 @@ TagManager:
   - Button
   - gerry
   - heal
+  - NPC
   layers:
   - Default
   - TransparentFX

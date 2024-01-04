@@ -1478,6 +1478,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &552186826 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2025180281755888014, guid: 9d856040f129493479d03beaf3440418, type: 3}
+  m_PrefabInstance: {fileID: 2025180282920853844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &552186833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552186826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1574586639
+      Data2: 1311221846
+      Data3: 263658377
+      Data4: 943699780
+    Path: event:/button pos
+  Event: 
+  PlayEvent: 17
+  StopEvent: 18
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &572907697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2589,7 +2625,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2025180283179717929, guid: 9d856040f129493479d03beaf3440418, type: 3}
   m_PrefabInstance: {fileID: 2025180282920853844}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1709824818}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1908c1f538cef44d9f7850323b71ce7, type: 3}
@@ -3252,22 +3288,22 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1574586639
+      Data2: 1311221846
+      Data3: 263658377
+      Data4: 943699780
+    Path: event:/button pos
   Event: 
   PlayEvent: 17
-  StopEvent: 0
+  StopEvent: 18
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1323587132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3622,6 +3658,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 763540027}
   boop: {fileID: 0}
+--- !u!114 &1401069339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401069328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1574586639
+      Data2: 1311221846
+      Data3: 263658377
+      Data4: 943699780
+    Path: event:/button pos
+  Event: 
+  PlayEvent: 17
+  StopEvent: 18
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1463335624
 GameObject:
   m_ObjectHideFlags: 0
@@ -4595,6 +4662,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671977687}
   m_CullTransparentMesh: 1
+--- !u!1 &1709824818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2025180283179717922, guid: 9d856040f129493479d03beaf3440418, type: 3}
+  m_PrefabInstance: {fileID: 2025180282920853844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1709824825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709824818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1574586639
+      Data2: 1311221846
+      Data3: 263658377
+      Data4: 943699780
+    Path: event:/button pos
+  Event: 
+  PlayEvent: 17
+  StopEvent: 18
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1713061384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6675,12 +6778,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2025180283562326163, guid: 9d856040f129493479d03beaf3440418, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1321652801}
+    - targetCorrespondingSourceObject: {fileID: 2025180283179717922, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1709824825}
+    - targetCorrespondingSourceObject: {fileID: 2025180281755888014, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 552186833}
     - targetCorrespondingSourceObject: {fileID: 2025180282840800265, guid: 9d856040f129493479d03beaf3440418, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1401069333}
     - targetCorrespondingSourceObject: {fileID: 2025180282840800265, guid: 9d856040f129493479d03beaf3440418, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1401069334}
+    - targetCorrespondingSourceObject: {fileID: 2025180282840800265, guid: 9d856040f129493479d03beaf3440418, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401069339}
     - targetCorrespondingSourceObject: {fileID: 7231832376198276723, guid: 9d856040f129493479d03beaf3440418, type: 3}
       insertIndex: -1
       addedObject: {fileID: 108773895}
