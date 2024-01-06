@@ -1949,6 +1949,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       insertIndex: -1
       addedObject: {fileID: 331010397}
+    - targetCorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 331010405}
+    - targetCorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 331010409}
     - targetCorrespondingSourceObject: {fileID: 2346263184983094537, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       insertIndex: -1
       addedObject: {fileID: 925253877}
@@ -1993,6 +1999,44 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.20920503}
   serializedVersion: 2
   m_Radius: 1.0092051
+--- !u!114 &331010405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331010393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Emitters:
+  - Target: {fileID: 1274787803}
+    Params:
+    - Name: BattleChange
+      Value: 1
+  TriggerEvent: 5
+--- !u!114 &331010409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331010393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Emitters:
+  - Target: {fileID: 1274787803}
+    Params:
+    - Name: BattleChange
+      Value: 0
+  TriggerEvent: 6
 --- !u!1 &372155853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,7 +2599,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413481970}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -2576,7 +2620,7 @@ MonoBehaviour:
   Preload: 0
   AllowNonRigidbodyDoppler: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
 --- !u!1 &443429955
@@ -14059,6 +14103,7 @@ GameObject:
   - component: {fileID: 1274787802}
   - component: {fileID: 1274787803}
   - component: {fileID: 1274787804}
+  - component: {fileID: 1274787805}
   m_Layer: 0
   m_Name: Music (1)
   m_TagString: Untagged
@@ -14124,9 +14169,11 @@ MonoBehaviour:
   StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
+  Preload: 1
+  AllowNonRigidbodyDoppler: 1
+  Params:
+  - Name: BattleChange
+    Value: 0
   OverrideAttenuation: 1
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -14137,7 +14184,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274787799}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
   m_Name: 
@@ -14149,6 +14196,25 @@ MonoBehaviour:
     - Name: BattleChange
       Value: 0
   TriggerEvent: 1
+--- !u!114 &1274787805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274787799}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1274787803}
+    Params:
+    - Name: BattleChange
+      Value: 0
+  TriggerEvent: 11
 --- !u!1 &1276306485
 GameObject:
   m_ObjectHideFlags: 0
@@ -16336,6 +16402,11 @@ PolygonCollider2D:
       - {x: 0.79499996, y: -1.03}
       - {x: 0.895, y: -1.01}
   m_UseDelaunayMesh: 0
+--- !u!1 &1784762461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3795340586592483589, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
+  m_PrefabInstance: {fileID: 3795340587416883218}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1807455528
 GameObject:
   m_ObjectHideFlags: 0
@@ -16993,12 +17064,26 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3795340586592483595, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
   m_PrefabInstance: {fileID: 3795340587416883218}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1784762461}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6dc3ea73c166bf42a6f5a3a5982132f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1944889630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784762461}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 269d09a11be980b40921296367e1372c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battle: {fileID: 1949747465}
+  iceman: {fileID: 331010393}
 --- !u!224 &1945422980 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5853441428359639982, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
@@ -17027,7 +17112,26 @@ MonoBehaviour:
   - Master
   CollisionTag: 
   PreloadSamples: 1
---- !u!114 &1949747471
+--- !u!114 &1949747472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949747465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1274787803}
+    Params:
+    - Name: BattleChange
+      Value: 2
+  TriggerEvent: 11
+--- !u!114 &1949747474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17046,25 +17150,6 @@ MonoBehaviour:
     - Name: BattleChange
       Value: 0
   TriggerEvent: 12
---- !u!114 &1949747472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949747465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Emitters:
-  - Target: {fileID: 1274787803}
-    Params:
-    - Name: BattleChange
-      Value: 1
-  TriggerEvent: 11
 --- !u!1 &2002433358
 GameObject:
   m_ObjectHideFlags: 0
@@ -17625,6 +17710,38 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1274787799}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853441428372001702, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5853441428422522691, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -17748,7 +17865,7 @@ PrefabInstance:
       addedObject: {fileID: 1949747472}
     - targetCorrespondingSourceObject: {fileID: 5853441427050028969, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1949747471}
+      addedObject: {fileID: 1949747474}
     - targetCorrespondingSourceObject: {fileID: 5853441428623017510, guid: ba6b8e870a62eb449bb731781748b85a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2002772314}
@@ -18283,6 +18400,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3673560829177155349}
+    - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3673560829177155356}
   m_SourcePrefab: {fileID: 100100000, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
 --- !u!114 &3673560829177155336 stripped
 MonoBehaviour:
@@ -18385,9 +18505,44 @@ MonoBehaviour:
   Preload: 0
   AllowNonRigidbodyDoppler: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!58 &3673560829177155356
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593138137}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.028772593, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.860883
 --- !u!1001 &3795340587416883218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18519,7 +18674,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3795340586592483589, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1944889630}
   m_SourcePrefab: {fileID: 100100000, guid: 5072a23eeb26d464e89304edeb44be81, type: 3}
 --- !u!1001 &5120762675754245571
 PrefabInstance:
@@ -18864,6 +19022,34 @@ PrefabInstance:
       propertyPath: missionDialogue
       value: 
       objectReference: {fileID: 925253877}
+    - target: {fileID: 6545029554328990965, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545029554328990965, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545029554328990965, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545029554328990965, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545029554328990965, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545029554328990965, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.Behaviour, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545029554328990965, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6545029554596696140, guid: e5b470dbb51662740988ab9f264ecf73, type: 3}
       propertyPath: missionDialogue
       value: 

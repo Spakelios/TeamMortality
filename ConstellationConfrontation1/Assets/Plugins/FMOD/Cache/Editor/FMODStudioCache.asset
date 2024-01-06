@@ -70,30 +70,10 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638399881242064525
+  lastModified: 638401791411794472
   FileSizes:
   - Name: Desktop
-    Value: 2982400
-  Exists: 1
---- !u!114 &-5123942693370014445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/YourMom.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../FMOD Studio/Game/Build/Desktop/YourMom.bank
-  Name: YourMom
-  StudioPath: bank:/YourMom
-  lastModified: 638374882117377352
-  FileSizes:
-  - Name: Desktop
-    Value: 494
+    Value: 3192064
   Exists: 1
 --- !u!114 &-5080292586773399888
 MonoBehaviour:
@@ -216,7 +196,6 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 9042223339493966554}
   - {fileID: -6697555624944929648}
-  - {fileID: -5123942693370014445}
   EditorEvents:
   - {fileID: 5663855843106837065}
   - {fileID: -5080292586773399888}
@@ -235,7 +214,7 @@ MonoBehaviour:
   - {fileID: -6697555624944929648}
   StringsBanks:
   - {fileID: 9042223339493966554}
-  cacheTime: 638399881242104417
+  cacheTime: 638401791411827312
   cacheVersion: 131609
 --- !u!114 &566407472698861525
 MonoBehaviour:
@@ -306,7 +285,7 @@ MonoBehaviour:
   Name: BattleChange
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 2069718870
@@ -315,6 +294,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - Iceplanet
+  - NPC
   - Battle
   Exists: 1
 --- !u!114 &5663855843106837065
@@ -386,7 +366,7 @@ MonoBehaviour:
   Name: BattleChange
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 2069718870
@@ -395,6 +375,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - Iceplanet
+  - NPC
   - Battle
   Exists: 1
 --- !u!114 &7072519980885837269
@@ -452,7 +433,7 @@ MonoBehaviour:
   - {fileID: 4202130261376130990}
   MinDistance: 1
   MaxDistance: 20
-  Length: 28303
+  Length: 0
 --- !u!114 &8651199118524775243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,8 +476,8 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638399881242104417
+  lastModified: 638401791411827312
   FileSizes:
   - Name: Desktop
-    Value: 1452
+    Value: 1402
   Exists: 1
