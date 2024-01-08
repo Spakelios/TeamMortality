@@ -70,10 +70,10 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638401791411794472
+  lastModified: 638403513926938701
   FileSizes:
   - Name: Desktop
-    Value: 3192064
+    Value: 3219328
   Exists: 1
 --- !u!114 &-5080292586773399888
 MonoBehaviour:
@@ -209,12 +209,13 @@ MonoBehaviour:
   - {fileID: -4334491851226325945}
   - {fileID: 7072519980885837269}
   - {fileID: 2650458399153694265}
+  - {fileID: 956294384739852570}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6697555624944929648}
   StringsBanks:
   - {fileID: 9042223339493966554}
-  cacheTime: 638401791411827312
+  cacheTime: 638403513926998545
   cacheVersion: 131609
 --- !u!114 &566407472698861525
 MonoBehaviour:
@@ -243,6 +244,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12400
+--- !u!114 &956294384739852570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC
+  m_EditorClassIdentifier: 
+  Path: event:/NPC
+  Guid:
+    Data1: -357616565
+    Data2: 1256604469
+    Data3: -1354594663
+    Data4: -897412237
+  Banks:
+  - {fileID: -6697555624944929648}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18000
 --- !u!114 &2650458399153694265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,7 +297,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 24000
+  Length: 11000
 --- !u!114 &4202130261376130990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,8 +322,8 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - Iceplanet
-  - NPC
   - Battle
+  - Stinger
   Exists: 1
 --- !u!114 &5663855843106837065
 MonoBehaviour:
@@ -375,8 +403,8 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - Iceplanet
-  - NPC
   - Battle
+  - Stinger
   Exists: 1
 --- !u!114 &7072519980885837269
 MonoBehaviour:
@@ -476,8 +504,8 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638401791411827312
+  lastModified: 638403513926998545
   FileSizes:
   - Name: Desktop
-    Value: 1402
+    Value: 1446
   Exists: 1

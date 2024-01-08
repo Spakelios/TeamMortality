@@ -1951,10 +1951,10 @@ PrefabInstance:
       addedObject: {fileID: 331010397}
     - targetCorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 331010405}
+      addedObject: {fileID: 331010399}
     - targetCorrespondingSourceObject: {fileID: 2270193813458866514, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 331010409}
+      addedObject: {fileID: 331010402}
     - targetCorrespondingSourceObject: {fileID: 2346263184983094537, guid: 06080813eb6a0224ab1a3a115eb3ceda, type: 3}
       insertIndex: -1
       addedObject: {fileID: 925253877}
@@ -1999,7 +1999,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.20920503}
   serializedVersion: 2
   m_Radius: 1.0092051
---- !u!114 &331010405
+--- !u!114 &331010399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2008,17 +2008,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 331010393}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Emitters:
-  - Target: {fileID: 1274787803}
-    Params:
-    - Name: BattleChange
-      Value: 1
-  TriggerEvent: 5
---- !u!114 &331010409
+  EventReference:
+    Guid:
+      Data1: -357616565
+      Data2: 1256604469
+      Data3: -1354594663
+      Data4: -897412237
+    Path: event:/NPC
+  Event: 
+  PlayEvent: 5
+  StopEvent: 6
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &331010402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2027,16 +2039,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 331010393}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Script: {fileID: 11500000, guid: 269d09a11be980b40921296367e1372c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: Player
-  Emitters:
-  - Target: {fileID: 1274787803}
-    Params:
-    - Name: BattleChange
-      Value: 0
-  TriggerEvent: 6
+  battle: {fileID: 1949747465}
+  iceman: {fileID: 331010393}
 --- !u!1 &372155853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,7 +2606,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413481970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -2618,9 +2625,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  AllowNonRigidbodyDoppler: 1
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
 --- !u!1 &443429955
@@ -14103,7 +14110,6 @@ GameObject:
   - component: {fileID: 1274787802}
   - component: {fileID: 1274787803}
   - component: {fileID: 1274787804}
-  - component: {fileID: 1274787805}
   m_Layer: 0
   m_Name: Music (1)
   m_TagString: Untagged
@@ -14184,37 +14190,30 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274787799}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Emitters:
-  - Target: {fileID: 1274787803}
-    Params:
-    - Name: BattleChange
-      Value: 0
-  TriggerEvent: 1
---- !u!114 &1274787805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274787799}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Emitters:
-  - Target: {fileID: 1274787803}
-    Params:
-    - Name: BattleChange
-      Value: 0
-  TriggerEvent: 11
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &1276306485
 GameObject:
   m_ObjectHideFlags: 0
@@ -16017,11 +16016,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5738746225051025442, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
       propertyPath: m_Size.y
-      value: 2.1794562
+      value: 2.2825177
       objectReference: {fileID: 0}
     - target: {fileID: 5738746225051025442, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
       propertyPath: m_Offset.x
       value: -0.00000054857554
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738746225051025442, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.051529393
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738746225051025442, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5738746225051025443, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
       propertyPath: m_Color.b
@@ -16041,7 +16048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5738746225051025452, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5738746225051025452, guid: f1b8b58ba42810742aa4e94803ca3c81, type: 3}
       propertyPath: m_TagString
@@ -18393,9 +18400,6 @@ PrefabInstance:
       addedObject: {fileID: 593138143}
     - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3673560829177155337}
-    - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 3673560829177155343}
     - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       insertIndex: -1
@@ -18403,6 +18407,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3673560829177155356}
+    - targetCorrespondingSourceObject: {fileID: 3673560828615447939, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3673560829177155362}
   m_SourcePrefab: {fileID: 100100000, guid: d206cc7059a845f46ae16fa494eb1fbe, type: 3}
 --- !u!114 &3673560829177155336 stripped
 MonoBehaviour:
@@ -18415,37 +18422,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 052b1cf398ac9f244b4211855157447e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3673560829177155337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593138137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: gerry
-  EventReference:
-    Guid:
-      Data1: 1410302906
-      Data2: 1279035301
-      Data3: -1179923014
-      Data4: 871533593
-    Path: event:/Tap_01
-  Event: 
-  PlayEvent: 3
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &3673560829177155343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18543,6 +18519,37 @@ CircleCollider2D:
   m_Offset: {x: 0.028772593, y: 0}
   serializedVersion: 2
   m_Radius: 0.860883
+--- !u!114 &3673560829177155362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593138137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: gerry
+  EventReference:
+    Guid:
+      Data1: 1410302906
+      Data2: 1279035301
+      Data3: -1179923014
+      Data4: 871533593
+    Path: event:/Tap_01
+  Event: 
+  PlayEvent: 5
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &3795340587416883218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19177,5 +19184,5 @@ SceneRoots:
   - {fileID: 1549928094}
   - {fileID: 3795340587416883218}
   - {fileID: 1720726780}
-  - {fileID: 1274787801}
   - {fileID: 1693235086}
+  - {fileID: 1274787801}
