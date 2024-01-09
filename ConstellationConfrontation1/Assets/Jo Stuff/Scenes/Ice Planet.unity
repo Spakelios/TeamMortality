@@ -14180,7 +14180,7 @@ MonoBehaviour:
   Params:
   - Name: BattleChange
     Value: 0
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
 --- !u!114 &1274787804
@@ -17133,10 +17133,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Emitters:
-  - Target: {fileID: 1274787803}
+  - Target: {fileID: 1274787804}
     Params:
     - Name: BattleChange
       Value: 2
+  - Target: {fileID: 1274787803}
+    Params:
+    - Name: BattleChange
+      Value: 1
   TriggerEvent: 11
 --- !u!114 &1949747474
 MonoBehaviour:
@@ -17152,6 +17156,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Emitters:
+  - Target: {fileID: 1274787804}
+    Params:
+    - Name: BattleChange
+      Value: 0
   - Target: {fileID: 1274787803}
     Params:
     - Name: BattleChange
@@ -18481,7 +18489,7 @@ MonoBehaviour:
   Preload: 0
   AllowNonRigidbodyDoppler: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
 --- !u!58 &3673560829177155356
