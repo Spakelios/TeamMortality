@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{7877610b-0b61-4c21-8909-dd9281ad9fb8}">
+		<property name="assetPath">
+			<value>UI Sounds/Tap.m4a</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1cce0d9f-c1cf-4931-bc12-4d109680b5eb}</destination>
+		</relationship>
+	</object>
+</objects>

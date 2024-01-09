@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6ce75ca4-c5c4-455b-876c-1bcd4c4c26fa}">
+		<property name="name">
+			<value>Speak</value>
+		</property>
+		<relationship name="folder">
+			<destination>{27eb4eea-6005-450e-8f29-8d93bc26e314}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{91890b38-a55f-4bf5-bf7e-b8f3ac892813}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{91890b38-a55f-4bf5-bf7e-b8f3ac892813}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

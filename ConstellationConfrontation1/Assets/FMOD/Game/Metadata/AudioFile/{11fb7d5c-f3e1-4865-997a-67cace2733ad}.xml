@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{11fb7d5c-f3e1-4865-997a-67cace2733ad}">
+		<property name="assetPath">
+			<value>Beep boops_fade.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.2506122448979591</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1cce0d9f-c1cf-4931-bc12-4d109680b5eb}</destination>
+		</relationship>
+	</object>
+</objects>

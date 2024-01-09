@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{da1f8e28-5909-4047-88cc-3fd07e883b48}">
+		<property name="assetPath">
+			<value>UI Sounds/doodoo.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5294331065759637</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1cce0d9f-c1cf-4931-bc12-4d109680b5eb}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{141a7de1-8c30-4de2-a44f-09cb2ee7c3cd}">
+		<property name="assetPath">
+			<value>EXAMPLES/amb_noon_loop.ogg.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1cce0d9f-c1cf-4931-bc12-4d109680b5eb}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3205c0f5-bd53-4459-b5e4-b2e0b6c227ba}">
+		<property name="name">
+			<value>BattleChange</value>
+		</property>
+		<relationship name="folder">
+			<destination>{27eb4eea-6005-450e-8f29-8d93bc26e314}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a0c17d91-e5e4-4623-9367-c4b97529dd2b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a0c17d91-e5e4-4623-9367-c4b97529dd2b}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Iceplanet</value>
+			<value>Battle</value>
+			<value>Stinger</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
